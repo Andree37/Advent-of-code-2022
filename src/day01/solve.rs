@@ -1,5 +1,4 @@
 use std::collections::BinaryHeap;
-use std::num::ParseIntError;
 
 pub fn solve1() {
     let input = get_input();
@@ -27,7 +26,7 @@ pub fn solve1() {
 pub fn solve2() {
     let input = get_input();
     let mut current = 0;
-    let mut top= BinaryHeap::new();
+    let mut top = BinaryHeap::new();
     input.lines()
         .for_each(|line| {
             let value = str::parse::<i32>(line);
