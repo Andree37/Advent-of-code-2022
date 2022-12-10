@@ -1,4 +1,4 @@
-use Advent_of_code_2022::day05::solve;
+use Advent_of_code_2022::day06::solve;
 
 fn main() {
     solve();
